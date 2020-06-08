@@ -1,0 +1,5 @@
+13:29:29.724 [main] DEBUG udemy_test.LogTest - Getting the frames count
+13:29:29.860 [main] INFO  udemy_test.LogTest - Frames count retreived
+13:29:29.892 [main] INFO  udemy_test.LogTest - Successfully switched to frame
+13:29:29.892 [main] DEBUG udemy_test.LogTest - Identifying Draggable objects
+13:29:30.431 [main] INFO  udemy_test.LogTest - Drag and drop success

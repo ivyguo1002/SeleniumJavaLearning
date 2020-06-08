@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="46" total="47" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-01T09:40:46Z" name="All Test Suite" finished-at="2020-06-01T09:40:46Z" duration-ms="90">
+    <groups>
+      <group name="smoke">
+        <method signature="TestHooks.OpeningBrowser(java.lang.String, java.lang.String)[pri:0, instance:udemy_test.TestHooks@61d47554]" name="OpeningBrowser" class="udemy_test.TestHooks"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-06-01T09:40:46Z" name="C:/Ivy/source/Java/WebDriver" finished-at="2020-06-01T09:40:46Z" duration-ms="90">
+      <class name="udemy_test.TestHooks">
+        <test-method signature="OpeningBrowser(java.lang.String, java.lang.String)[pri:0, instance:udemy_test.TestHooks@61d47554]" started-at="2020-06-01T09:40:46Z" name="OpeningBrowser" finished-at="2020-06-01T09:40:46Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+      </class> <!-- udemy_test.TestHooks -->
+    </test> <!-- C:/Ivy/source/Java/WebDriver -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

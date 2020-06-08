@@ -1,0 +1,8 @@
+13:21:22.490 [main] DEBUG udemy_test.LogTest - I am debugging
+13:21:22.505 [main] INFO  udemy_test.LogTest - Object is not present
+13:21:22.505 [main] ERROR udemy_test.LogTest - error
+13:28:39.017 [main] DEBUG udemy_test.LogTest - Setting chrome driver property
+13:29:01.203 [main] DEBUG udemy_test.LogTest - Setting chrome driver property
+13:29:15.663 [main] INFO  udemy_test.LogTest - Window Maximized
+13:29:15.663 [main] DEBUG udemy_test.LogTest - Now hitting Amazon server
+13:29:20.175 [main] INFO  udemy_test.LogTest - Landed on amazon home page

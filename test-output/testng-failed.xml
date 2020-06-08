@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="udemy_test.TestListeners"/>
+  </listeners>
+  <test thread-count="3" parallel="methods" name="C:/Ivy/source/Java/WebDriver(failed)">
+    <parameter name="APIKey" value="12345"/>
+    <parameter name="URL" value="test.com"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="udemy_test.TestHooks">
+        <methods>
+          <include name="Cookies"/>
+          <include name="Reportadding"/>
+          <include name="Cookiesclose"/>
+          <include name="FlightCancel"/>
+          <include name="UseridGeneration"/>
+        </methods>
+      </class> <!-- udemy_test.TestHooks -->
+    </classes>
+  </test> <!-- C:/Ivy/source/Java/WebDriver(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

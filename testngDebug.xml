@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Ivy/source/Java/WebDriver">
+        <classes>
+            <class name="udemy_test.TestHooks">
+                <methods>
+                    <exclude name="OpeningBrowser"/>
+                    <include name="FlightBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3">
+<listeners>
+    <listener class-name="udemy_test.TestListeners"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true" name="C:/Ivy/source/Java/WebDriver">
+        <parameter name="URL" value="test.com"></parameter>
+        <parameter name="APIKey" value="12345"></parameter>
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="udemy_test.TestHooks">
+            </class>
+            <class name="api_test.RestTests">
+            </class>
+            <class name="interactionTests.AlertTests">
+            </class>
+            <class name="interactionTests.ContextMenuTests">
+            </class>
+            <class name="interactionTests.CookieTests">
+            </class>
+            <class name="interactionTests.FileUploadTests">
+            </class>
+            <class name="interactionTests.ForgotPasswordTests">
+            </class>
+            <class name="interactionTests.FrameTests">
+            </class>
+            <class name="interactionTests.JavascriptTests">
+            </class>
+            <class name="interactionTests.KeyPressTests">
+            </class>
+            <class name="interactionTests.WindowPopupTests">
+            </class>
+            <class name="interactionTests.ModalTests">
+            </class>
+            <class name="interactionTests.SliderTests">
+            </class>
+            <class name="udemy_test.UdemyJavaTest">
+            </class>
+            <class name="interactionTests.WaitTests">
+            </class>
+            <class name="interactionTests.WindowTests">
+            </class>
+            <class name="visualtests.VisualTests">
+            </class>
+        </classes>
+    </test>
+</suite>
